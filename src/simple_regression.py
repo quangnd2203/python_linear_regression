@@ -42,7 +42,7 @@ def training(x, y, weight, bias, learning_rate, rounds):
     return weight, bias, cost_his
 
 
-weight, bias, cost_his = training(x, y, 0.03, 0.0014, 0.001, 337)
+weight, bias, cost_his = training(x, y, 0.03, 0.0014, 0.01, 10)
 print(predict(1, weight, bias))
 print(predict(2, weight, bias))
 print(predict(3, weight, bias))

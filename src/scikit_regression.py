@@ -2,7 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn import linear_model
 
-data_frame = pd.read_csv('ChirpsPerMinute.csv')
+
+data_frame = pd.read_csv('./data_set/ChirpsPerMinute.csv')
 x = data_frame[['Cricket chirps per Minute ']]
 y = data_frame['Temperature']
 

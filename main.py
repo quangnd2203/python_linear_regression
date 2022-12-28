@@ -1,4 +1,5 @@
-# import simple_regression
-import scikit_regression
+from src import kiemtra_1
+# from src import simple_regression
 
-scikit_regression
+# kiemtra_1
+# simple_regression

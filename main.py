@@ -1,3 +1,4 @@
-import simple_regression
+# import simple_regression
+import scikit_regression
 
-simple_regression
+scikit_regression

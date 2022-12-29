@@ -39,3 +39,4 @@ def on_predictive_model(in_put: [[]], p):
     return m, x
 
 
+print(predict([[1], [2], [3]]))

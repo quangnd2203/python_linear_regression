@@ -31,7 +31,7 @@ def cost_function(x, y, m, b):
 # Cau C
 def on_predictive_model(in_put: [[]], p):
     m = np.array([0])
-    x = np.array([0 for i in range(len(in_put))])
+    x = np.array([0 for _ in range(len(in_put))])
     for i in range(1, p + 1):
         m_temp, b_temp, x_temp = predict(in_put, i, False)
         m = m + m_temp
